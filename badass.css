@@ -461,7 +461,8 @@ margin-top: -4px !important;
 }
 
 .circle-offer{
-  background-color: var(--mypink); 
+  background-color: var(--mypink);
+  box-shadow: 0 0 16px 0 rgba(201, 24, 62, 20%), 0px 0px 50px 20px rgba(201, 24, 62, 30%);
 }
 
 .card-description{
