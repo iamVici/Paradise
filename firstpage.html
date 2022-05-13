@@ -1,0 +1,467 @@
+<!-- iamVici // -->
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <link rel="icon" href="/visual/logo_a.png">
+  <!-- Tags padrões -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Meu arquivo css -->
+  <link href="badass.css" rel="stylesheet">
+  <script scr="support.js"></script>
+  <!-- Bootstrap+CSS -->
+  <script scr="js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Importando fontes do google -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&family=Outfit:wght@100;400;800&display=swap');
+  </style>
+
+  <!-- Nome do site -->
+  <title>Paradise - First Page</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</head>
+
+<style>
+  @font-face {
+    font-family: evangelion;
+    src: url(fonts/evangelion.ttf);
+  }
+
+  .banner-image {
+    background-image: url('visual/banner.jpg');
+    background-size: cover;
+  }
+</style>
+
+<body>
+
+  <!--Header-->
+  <header>
+
+  </header>
+
+  <!-- Menu Superior  -->
+  <nav class="navbar fixed-top navbar-dark p-md-4 menu-principal">
+    <!--<div class="container d-flex flex-wrap">-->
+  <div class="container">
+    <div class="col-md-3">
+      <div class="logo" style="user-select: none;">
+        <h2 style="color:white; margin-top: 5px; margin-right: 5px; display: inline;">✦</h2>
+        <a class="easter-egg h5" style="color:white; position: absolute; margin-left: -15px; margin-top: -10px; text-decoration: none; cursor: pointer;" href="#">✦</a>
+        <h2 class="text-white" style="font-family: evangelion; margin: 0; margin-top: 5px; display: inline;">PARADISE</h2>
+      </div>
+    </div>
+    <div class="col-md-6 text-center" style="text-align: center;">
+      <a href="#inicio" class="px-2 link-meunusup">Início</a>
+      <a href="#sobre" class="px-2 link-meunusup">Sobre</a>
+      <a href="#ofertas" class="px-2 link-meunusup">Ofertas</a>
+      <a href="#ofertas" class="px-2 link-meunusup">Produtos</a>
+      <a href="#" class="px-2 link-meunusup">Contato</a>
+      <a href="#" class="px-2 link-meunusup">Localização</a>
+    </div>
+
+    <!-- Campo de Saudações -->
+    <div class="col-md-3" style="margin-top: auto; margin-bottom: auto; text-align:right !important; ">
+      <p class="text-white" style="margin-top: 16px; padding: 0px; display:inline-block; font-size: 18px;">Bem-vindo, <a class="name" style="" data-toggle="tooltip" data-placement="bottom" title="visualizar perfil">Victor Pires</a></p>
+        <div class="dropdown text-end" style="display: inline-block;">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle margin-left-10" id="dropdownUser1"data-bs-toggle="dropdown" aria-expanded="false" style="display: inline-block; margin-left: 20px; ">
+          <img src="visual/me.PNG" alt="mdo" width="40" height="40" class="rounded-circle avatar">
+          </a>
+          <ul class="dropdown-menu text-small dropdown-menu-right">
+            <h6 class="dropdown-header">Dropdown header</h6>
+            <li><a class="dropdown-item dropdown-menu-right" href="#">
+                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/eszyyflr.json" trigger="loop-on-hover"
+                  colors="primary:#121331,secondary:#9b51e0" stroke="100" style="width:25px;height:25px">
+                </lord-icon> Painel
+              </a></li>
+            <li><a class="dropdown-item" href="#">
+                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/dnoiydox.json" trigger="loop-on-hover"
+                  colors="primary:#121331,secondary:#9b51e0" stroke="100" style="width:25px;height:25px">
+                </lord-icon> Carrinho
+              </a></li>
+            <li><a class="dropdown-item" href="#">
+                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/rjzlnunf.json" trigger="loop-on-hover"
+                  colors="primary:#121331,secondary:#9b51e0" stroke="100" style="width:25px;height:25px">
+                </lord-icon> Favoritos
+              </a></li>
+            <li><a class="dropdown-item" href="#">
+                <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/sbiheqdr.json" trigger="loop-on-hover"
+                  colors="primary:#121331,secondary:#9b51e0" stroke="100" style="width:25px;height:25px">
+                </lord-icon> Configurações
+              </a></li>
+            <li>
+              <hr class="dropdown-divider white">
+            </li>
+            <a class="dropdown-item" href="#"><img class="menu_icons" src="icons/caret-left.svg"> Sair</a>
+          </ul>
+        </div>
+      </div>
+
+  </nav>
+
+  <!-- Imagem de Fundo  -->
+  <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center" id="inicio">
+    <div class="content text-center">
+      <div class="content text-center">
+        <img class=" w-100" src="visual/logo.png" style="background-attachment: fixed;">
+        <p><a class="btn-simple" href="#sobre" style="margin-top: 20px;"><span>Conheça Paradise</span></a></p>
+      </div>
+    </div>
+  </div>
+  <img class="hide w-100" src="visual/paradise.gif">
+
+  <!--Sobre nós-->
+
+  <div class="container" style="margin-top:40px;" id="sobre">
+    <h2 style="margin-bottom: 20px;">✦ Sobre Nós</h2><hr style="margin-top:0;">
+    <div class="row">
+      <div class="col-md-8" style="margin-top:30px">
+          <h3>| Como começamos?</h3>
+          <p style="text-align: justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book.</p>
+          
+          <h3>| Nosso Objetivo</h3>
+          <p style="text-align: justify">It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+            Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+          <h3>| Equipe</h3>
+          <p style="text-align: justify">It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+          essentially unchanged. It was popularised in the 1960s.</p><hr>
+          <img class="w-100" src="visual/sobre_b.jpg" style="margin-top: 20px;">
+      </div>
+      <div class="col-md-4">
+          <img class="hide w-100" src="visual/sobre.png">
+      </div>
+    </div>
+  </div>
+          <!--EQUIPE
+          <section class="py-8">
+            <div class="row mt-lg-6 mt-4">
+              <div class="col-lg-3" style="padding: 6px;">
+                <div class="card card-body" style="padding: 6px;">
+                  <div class="row">
+                    <div class="col-lg-7" style="margin-top: 5px; margin-bottom: auto;">
+                      <h6 style="padding: 0; font-size: 14px; margin: 0; font-weight: 600;">Victor Pires</h6>
+                      <p style="padding: 0; font-size: 14px; margin: 0;">Web Designer</p>
+                      <hr width="20px" style="margin: 0;">
+                      <a class="post-link" href="" style="margin:0;">BEHANCE</a>
+                    </div>
+                    <div class="col-lg-5 my-auto">
+                      <img src="visual/me.PNG" width="60px" style="border-radius: 5px; font-size: 10px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding: 6px;">
+                <div class="card card-body" style="padding: 6px;">
+                  <div class="row">
+                    <div class="col-lg-7" style="margin-top: 5px; margin-bottom: auto;">
+                      <h6 style="padding: 0; font-size: 14px; margin: 0; font-weight: 600;">Ezequiel P.</h6>
+                      <p style="padding: 0; font-size: 14px; margin: 0;">Banco</p>
+                      <hr width="20px" style="margin: 0;">
+                      <a class="post-link" href="" style="margin:0;">INSTAGRAM</a>
+                    </div>
+                    <div class="col-lg-5 my-auto">
+                      <img src="visual/avatar.gif" width="60px" style="border-radius: 5px; font-size: 10px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding: 6px;">
+                <div class="card card-body" style="padding: 6px;">
+                  <div class="row">
+                    <div class="col-lg-7" style="margin-top: 5px; margin-bottom: auto;">
+                      <h6 style="padding: 0; font-size: 14px; margin: 0; font-weight: 600;">Fábio Rubio</h6>
+                      <p style="padding: 0; font-size: 14px; margin: 0;">Back-End</p>
+                      <hr width="20px" style="margin: 0;">
+                      <a class="post-link" href="" style="margin:0;">GITHUB</a>
+                    </div>
+                    <div class="col-lg-5 my-auto">
+                      <img src="visual/avatar.gif" width="60px" style="border-radius: 5px; font-size: 10px;">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding: 6px;">
+                <div class="card card-body" style="padding: 6px;">
+                  <div class="row">
+                    <div class="col-lg-7" style="margin-top: 5px; margin-bottom: auto;">
+                      <h6 style="padding: 0; font-size: 14px; margin: 0; font-weight: 600;">Fernando P.</h6>
+                      <p style="padding: 0; font-size: 14px; margin: 0;">Documentação</p>
+                      <hr width="20px" style="margin: 0;">
+                      <a class="post-link" href="" style="margin:0;">GITHUB</a>
+                    </div>
+                    <div class="col-lg-5 my-auto">
+                      <img src="visual/avatar.gif" width="60px" style="border-radius: 5px; font-size: 10px;">
+                    </div>
+                  </div>
+                </div>-->
+          <!--<img src="visual/sobre_b.jpg" style="margin-top: 20px;">-->
+
+
+  <!--Posts-->
+  <div class="container col-xl-10 col-xxl-8 vertical-align" style="margin-top:40px;">
+    <h2 style="margin-bottom: 20px;">✦ Confira nossas Postagens</h2><hr style="margin-top:0;">
+    <div class="row posts">
+      <div class="col-md-6" style="margin-top:30px">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 post-funcionalidade"
+              style="direction: ltr; text-align: left;">Funcionalidade</strong>
+            <h3 class="mb-0" style="direction: ltr; text-align: left;">Novo WebSite!</h3>
+            <div class="mb-1 text-muted" style="direction: ltr; text-align: left;">20 de Junho</div>
+            <p class="card-text mb-auto" style="direction: ltr; text-align: left;">Novas funcionalidades adicionadas além do visual incrível.</p>
+            <a href="#" class="post-link" style="direction: ltr; text-align: left;">ver mais</a>
+          </div>
+          <div class="col-auto d-none d-lg-block" style="direction: ltr; text-align: left;">
+            <img src="visual/post_a.jpg" width="200px" height="240px">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6" style="margin-top:30px">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 post-marca" style="direction: ltr; text-align: left;">Marcas</strong>
+            <h3 class="mb-0" style="direction: ltr; text-align: left;">Stella Artois</h3>
+            <div class="mb-1 text-muted" style="direction: ltr; text-align: left;">22 de Junho</div>
+            <p class="card-text mb-auto" style="direction: ltr; text-align: left;">Stella Artois estará nos acompanhando nessa empreitada. Bem-vinda ao time!</p>
+            <a href="#" class="post-link" style="direction: ltr; text-align: left;">ver mais</a>
+          </div>
+          <div class="col-auto d-none d-lg-block" style="direction: ltr; text-align: left;">
+            <img src="visual/post_b.jpg" width="200px" height="240px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Produtos-->
+  <div class="container">
+    <h2 style="margin-bottom: 20px;">✦ Nossos Produtos</h2><hr style="margin-top:0;">
+    <div class="row">
+      <div class="col-md-4">
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+        <div class="shadow bg-white text-black mycard card-offer">
+          <p class="card-offer-ticket">ㅤ✦ OFERTA ✦ㅤ</p>
+          <div class="shadow-sm unit unit-offer">
+            <a class="arrow arrow-offer" href:#;>▴</a><p class="unit-counter">08</p><a class="arrow arrow-offer" href:#;>▾</a>
+          </div>
+          <div class="text-center">
+            <hr>
+            <img class="align-center" src="visual/breja.png" width="200px" style="z-index: 10 !important;"><br>
+            <div class="circle circle-offer"></div><br>
+            <p class="mycard-title card-offer-title mt-4">Stella Artois & Budweiser</p>
+            <p class="h5 card-description">Aproveite o nosso combo das duas esposas. Leve a sua e a do<br>seu amigo junto!</p>
+          </div>
+          <button type="button" class="buy buy_offer">Comprar</button>
+          <span class="fixed price price-offer">✦ R$19,60</span>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="col-md-4 col-lg-4">
+        <div class="shadow-sm bg-white text-black text-center"
+          style="width: 400px; height: 540px; border-radius: 0; padding: 0; margin: auto; margin-bottom: 40px;">
+          <hr style="height:8px; width: 100%; margin: 0 0 0 0; color: var(--myspecialgray); opacity: 100%;">
+          <img src="visual/breja.png" width="200px" style="margin-top: 40px; margin-bottom: 20px;"><br>
+          <h3 class="" style="color: var(--myspecialgray); font-weight: 600;">Stella Artois<br><span class="m-10" style="font-size: 18px; font-weight: 600;">&</span> Budweiser</h3>
+          <h5 class="" style="margin: 0 20px; color:gray">Aproveite o nosso combo das duas esposas. Leve a sua e a do<br>seu amigo junto!</h5>
+          <button type="button" class="sold_out"style="margin: 40px 5px 20px 5px; width: 250px; text-transform: uppercase; cursor:default;">Esgotado</button>
+          <span style="margin-left: 10px; font-size: 18px; color: var(--myspecialgray); display: inline-block; border-bottom: 1px solid var(--myspecialgray); padding-bottom: 15px; border-top: 1px solid var(--myspecialgray); padding-top: 12px; cursor: default;">R$19,60</span>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-4">
+        <div class="shadow bg-white text-black" style="width: 400px; height: 540px; border-radius: 0; padding: 0; margin: auto; margin-bottom: 40px; ">
+          <div class="text-center">
+            <hr style="height:8px; width: 100%; margin: 0 0 0 0; color: var(--mygold); opacity: 100%;">
+            <img class="align-center" src="visual/breja.png" width="200px" style="margin-top: 40px; margin-bottom: 20px; margin-left: auto !important; margin-right: auto !;"><br>
+            <h3 class="" style="color: var(--mygold); font-weight: 600;">Stella Artois<br><span class="m-10" style="font-size: 18px; font-weight: 600;">&</span> Budweiser</h3>
+            <p class="h5" style="margin: 0 10px 40px 10px ; color:gray">Aproveite o nosso combo das duas esposas. Leve a sua e a do<br>seu amigo junto!</p>
+          </div>
+          <button type="button" class="buy" style="width: 250px; text-transform: uppercase; position: absolute; margin: -2px 20px 0 24px;">Comprar</button>
+          <span class="fixed" style="margin: 0 20px 0 296px; font-size: 18px; color: var(--mygreencyan); position: absolute; border-bottom: 1px solid var(--mygreencyan); padding-bottom: 15px; border-top: 1px solid var(--mygreencyan); padding-top: 12px; cursor: default;">R$19,60</span>
+        </div>
+      </div>
+      <!--
+      <div class="col-md-4">
+        <div class="shadow bg-white text-black text-center"
+          style="width: 400px; height: 540px; border-radius: 0; padding: 0; margin: auto; margin-bottom: 40px;">
+          <hr style="height:8px; width: 100%; margin: 0 0 0 0; color: var(--mygold); opacity: 100%;">
+          <img src="visual/breja.png" width="200px" style="margin-top: 40px; margin-bottom: 20px;"><br>
+          <h3 class="" style="color: var(--mygold)">Stella Artois<br><span class="m-10"style="font-size: 18px; ">&</span> Budweiser</h3>
+          <h5 class="" style="margin: 0 20px; color:gray">Aproveite o nosso combo das duas esposas. Leve a sua e a do<br>seu amigo junto!</h5>
+          <button type="button" class="buy"style="margin: 40px 5px 20px 5px; width: 250px; text-transform: uppercase;">Comprar</button>
+          <span style="margin-left: 10px; font-size: 18px; color: var(--mygreencyan); display: inline-block; border-bottom: 1px solid var(--mygreencyan); padding-bottom: 15px; border-top: 1px solid var(--mygreencyan); padding-top: 12px; cursor: default;">R$19,60✦</span>
+        </div>
+      </div>
+      -->
+    </div>
+  </div>
+    
+
+
+
+  <!--Procedimento-->
+  <div class="container col-xl-10 col-xxl-8 vertical-align" style="margin-top:40px;">
+    <h2 style="margin-bottom: 20px;">✦ Procedimento</h2>
+      <hr style="margin-top:0;">
+      <div class="row g-0 bg-light rounded-3">
+        <div class="col-xl-4 col-lg-12 col-md-4 border-end">
+          <div class="py-3">
+            <div class="d-flex align-items-center mx-auto py-3 px-3" style="max-width: 362px;">
+              <div class="display-3 fw-normal opacity-15 me-4">
+                <img class="d-block my-2" src="icons/cart3.svg" width="60">
+              </div>
+              <div class="ps-2">
+                <h2>01</h2>
+                <h5 class="text-purple">Encomende seus produtos</h5>
+                <p class="mb-3 pt-1" _msthash="3659812" _msttexthash="1518075">Selecione os produtos que você quer de
+                  forma online!</p>
+              </div>
+            </div>
+            <hr class="d-md-none d-lg-block d-xl-none">
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-4 border-end">
+          <div class="py-3">
+            <div class="d-flex align-items-center mx-auto py-3 px-3" style="max-width: 362px;">
+              <div class="display-3 fw-normal opacity-15 me-4">
+                <img class="d-block my-2" src="icons/cart3.svg" width="60">
+              </div>
+              <div class="ps-2">
+                <h2>02</h2>
+                <h5 class="text-purple">Encomende seus produtos</h5>
+                <p class="mb-3 pt-1" _msthash="3659812" _msttexthash="1518075">Selecione os produtos que você quer de
+                  forma online!</p>
+              </div>
+            </div>
+            <hr class="d-md-none d-lg-block d-xl-none">
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-md-4">
+          <div class="py-3">
+            <div class="d-flex align-items-center mx-auto py-3 px-3" style="max-width: 362px;">
+              <div class="display-3 fw-normal opacity-15 me-4">
+                <img class="d-block my-2" src="icons/cart3.svg" width="60">
+              </div>
+              <div class="ps-2">
+                <h2>03</h2>
+                <h5 class="text-purple">Encomende seus produtos</h5>
+                <p class="mb-3 pt-1" _msthash="3659812" _msttexthash="1518075">Selecione os produtos que você quer de
+                  forma online!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+
+
+
+  <!--Localização-->
+  <div class="mapboxgl-canvas-container">
+    <img src="visual/map.JPG" width="100%" height="100%" />
+  </div>
+
+  <!--Rodapé-->
+  <footer class="footer mt-auto py-3 bg-dark text-white shadow">
+    <div class="container">
+      <footer class="py-5 bg-dark">
+        <div class="row">
+          <div class="col-6 ">
+            <h5 class="text-white">Endereço:</h5>
+            <ul class="nav flex-column text-muted">
+              <p>Endereço: R. Maj. Sertório, 110 - Vila Buarque, São Paulo - SP, 01222-000</p>
+
+              <h5 class="text-white">Endereço:</h5>
+              <ul class="nav flex-column text-muted">
+                <p>Endereço: R. Maj. Sertório, 110 - Vila Buarque, São Paulo - SP, 01222-000</p>
+
+              </ul>
+          </div>
+
+          <div class="col-4 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>© 2021 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+  </footer>
+  </div>
+  <img class="hide w-100" src="visual/paradise.gif">
+
+
+
+  <!--Rodapé Fixo-->
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-mydark', 'shadow');
+      } else {
+        nav.classList.remove('bg-mydark', 'shadow',);
+      }
+    });
+
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
